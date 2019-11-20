@@ -34,3 +34,9 @@ def json_to_file(data, file_name):
     with open(file_name, 'w') as outfile:
         json.dump(data, outfile)
     print('Save Complete')
+
+
+def file_to_json(filename):
+    with open(filename) as json_file:
+        file = json.load(json_file)
+    return file

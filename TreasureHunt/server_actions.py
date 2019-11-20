@@ -1,7 +1,7 @@
 import requests
 
 
-api_key = ''
+api_key = '056a437a5b897e5082708ef06ce43b2d38e96ec1'
 url_base = 'https://lambda-treasure-hunt.herokuapp.com/api/adv/'
 headers = {'Content-Type': 'application/json',
            'Authorization': 'Token ' + api_key}
